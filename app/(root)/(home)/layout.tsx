@@ -1,7 +1,7 @@
 import Navbar from '@/components/navbar'
-import Sidebar from '@/components/sidebar'
+import Sidebar from '@/components/Sidebar'
 import { Metadata } from 'next';
-import React, { ReactNode } from 'react'
+import React from 'react'
 
 export const metadata: Metadata = {
   title: "Zoom Clone",
