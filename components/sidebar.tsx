@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
-const Sidebar = () => {
+const sidebar = () => {
   const pathName = usePathname();
   return (
     <section className='sticky left-0 top-0 flex h-screen w-fit flex-col justify-between bg-dark-1 p-6 pt-28 text-white max-md:hidden lg:w-[264px]'>
@@ -28,4 +28,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default sidebar
